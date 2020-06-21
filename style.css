@@ -1,0 +1,149 @@
+/* Tulis code pada bagian2nya dan bila perlu beri komentar */
+
+
+/* CSS header */
+.carousel-item img{
+    width: 100%;
+    height: 550px;
+
+}
+.navbar-brand img{
+    width: 235px;
+    height: 55px;
+}
+.nav-link{
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-style:inherit ;
+}
+.nav-item, .nav-link{
+    color:blue !important;
+}
+.order{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #4361ee;
+}
+.order h5{
+    color: white;
+}
+.row{
+    background-color: white;
+    border-radius: 5px;
+
+}
+.carousel-inner h5{
+    color: yellow;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+/* CSS Content */
+.contents {
+  background-color: #fff5f1;
+  width: 100%;
+
+}
+
+.content-top-title h3 {
+  letter-spacing: 3px;
+  font-size: 35px;
+}
+
+.content-top-title {
+  width: 520px;
+  text-align: center;
+  margin: 60px auto;
+
+}
+
+.p-border {
+  border-bottom: 2px solid #313131;
+  width: 240px;
+  height: 10px;
+  display: block;
+  content: "";
+  margin: auto;
+  margin-bottom: 35px;
+}
+
+.p-content {
+  line-height: 1.8;
+  margin: 0;
+}
+
+.content-mid{
+  width: 100%;
+  margin: 0px;
+}
+
+.content-mid ul {
+  position: center;
+  background-color: black;
+  text-align: center;
+
+}
+
+.content-mid li {
+  float: left;
+  width: 25%;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 0;
+  height: 300px;
+  text-align: center;
+  transition: all 0.5s;
+  margin-bottom: 60px;
+}
+
+.content-mid li:hover {
+  opacity: 0.6;
+
+}
+
+.content-mid span {
+  font-size: 40px;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+}
+
+.content-bottom {
+  width: 500px;
+  text-align: center;
+  margin: 60px auto;
+}
+
+.content-bottom h3 {
+    letter-spacing: 3px;
+    font-size: 35px;
+    padding-top: 20px;
+  }
+
+  .p-content-bottom {
+    line-height: 1.8;
+    margin-top: 60px;
+  }
+
+/* CSS profile */
+
+
+/* CSS Footer */
+
+
+/* CSS Media Tablet */
+
+
+
+/* CSS Media Phone */
+@media (max-width:670px) {
+    .carousel-item img{
+        width: 100%;
+        height: 200px;
+
+    }
